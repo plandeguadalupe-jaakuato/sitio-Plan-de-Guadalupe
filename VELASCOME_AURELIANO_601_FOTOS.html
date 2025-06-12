@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>PLAN DE GUADALUPE FOTOS</title>
+
+<style type="text/css">
+  h1 {
+  text-align: center;
+}
+
+.carrusel {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.carrusel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /*max-width: 1030px;.*/
+  max-width: 510px;
+  scroll-behavior: smooth;
+}
+
+.carrusel-fotos {
+  display: flex;
+  gap: 10px;
+  overflow: auto;
+}
+
+.carrusel-fotos img {
+  background: black;
+  border: 4px solid black;
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.carrusel-menu {
+  display: none;
+}
+
+@media screen and (min-width: 500px) {
+  .carrusel-fotos {
+    overflow: hidden;
+  }
+
+  .carrusel-fotos img {
+    width: 500px;
+    height: 400px;
+  }
+  .carrusel-menu {
+    display: block;
+  }
+  .carrusel-menu img {
+    box-sizing: border-box;
+    width: 50px;
+    height: 40px;
+    border: 10px solid black;
+  }
+  .carrusel-menu img:hover {
+    border: none;
+  }
+}
+
+p {
+  text-align: center;
+}
+<!--
+body {
+	background-color: yellow;
+}
+-->
+</style>
+  <link href="mi_estilo.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body >
+
+<table width="700" border="1" bgcolor="#99FFCC" align="center">
+  <tr>
+    <td width="700" height="90" bgcolor="#00FFFF"><img src="xxxxxx.jpg" width="698" height="90"/></td>
+  </tr>
+  <tr>
+    <td width="700" height="150" bgcolor="#FFCECE"><img src="VELASCOME_AURELIANO_601_BANNER.gif"></td>
+  </tr>
+  <tr>
+    <td width="700" height="25" bgcolor="#99FFCC"><img src="mediop.jpg" width="698" height="25" alt="o" /></td>
+  </tr>
+</table>
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0">
+  <table width="700" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tr>
+      <td width="130" bgcolor="#99FFCC" align="center"><p><a class="navegacion" href="index.html" target="_self">PRINCIPAL</a>
+      <td width="130" bgcolor="#99FFCC" align="center"><p><a class="navegacion" href="VELASCOME_AURELIANO_601_HISTORIA.html" target="_self">HISTORIA</a>
+        <td width="130" bgcolor="#99FFCC" align="center"><p><a class="navegacion" href="VELASCOME_AURELIANO_601_UBICACION.html" target="_self">UBICACION</a>
+        <td width="130" bgcolor="#99FFCC" align="center"><p><a class="navegacion" href="VELASCOME_AURELIANO_601_CURIOSIDADES.html" target="_self">CURIOSIDADES</a>
+       <td width="130" bgcolor="#99FFCC" align="center"><p><a class="navegacion" href="VELASCOME_AURELIANO_601_CONTACTO.html" target="_self">CONTACTO</a>
+    </tr>
+  </table>
+  <tr>
+    <td width="140" valign="top" bgcolor="#309">
+      <div class="carrusel">
+    <ul class="carrusel-fotos">
+      <li id="IMG_20250119_072121"><img src="IMG_20250119_072121.jpg"  alt="" /></li>
+      <li id="IMG_20250430_062643"><img src="IMG_20250430_062643.jpg" alt="" /></li>
+      <li id="IMG-20250504-WA0006"><img src="IMG-20250504-WA0006.jpeg"  alt="" /></li>
+      <li id="IMG-20250610-WA0002"><img src="IMG-20250610-WA0002.jpg" alt=""></li>
+      <li id="IMG-20250610-WA0000"><img src="IMG-20250610-WA0000.jpg" alt=""></li>
+      <li id="IMG-20250610-WA0001"><img src="IMG-20250610-WA0001.jpg" alt=""></li>
+      <li id="IMG_20250508_062417"><img src="IMG_20250508_062417.jpg" alt=""></li>
+      
+    </ul>
+    <ul class="carrusel-menu">
+      <li><a href="#IMG_20250119_072121"><img src="IMG_20250119_072121.jpg" alt=""></a></li>
+      <li><a href="#IMG_20250430_062643"><img src="IMG_20250430_062643.jpg" alt=""></a></li>
+      <li><a href="#IMG-20250504-WA0006"><img src="IMG-20250504-WA0006.jpeg" alt=""></a></li>
+      <li><a href="#IMG-20250610-WA0002"><img src="IMG-20250610-WA0002.jpg" alt=""></a></li>
+      <li><a href="#IMG-20250610-WA0000"><img src="IMG-20250610-WA0000.jpg" alt=""></a></li>
+      <li><a href="#IMG-20250610-WA0001"><img src="IMG-20250610-WA0001.jpg" alt=""></a></li>
+      <li><a href="#IMG_20250508_062417"><img src="IMG_20250508_062417.jpg" alt=""></a></li>
+      
+    </ul>
+  </div>
+<table width="700" border="1" align="center">
+  <tr>
+    <td bgcolor="#000000"><img src="pie de pagina.jpg" width="700" height="25" alt="o" /></td>
+  </tr>
+</table>
+</body>
+</html>
